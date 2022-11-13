@@ -1,0 +1,220 @@
+@media (max-width: 1366px) {
+  body {
+    width: 1300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow-x: hidden;
+  }
+
+  section,
+  aside,
+  footer,
+  header {
+    width: 1080px;
+  }
+  .titulo,
+  h2 {
+    font-size: 48px;
+  }
+
+  p,
+  .markup {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .menu-btn {
+    display: block;
+    position: relative;
+
+    z-index: 12;
+  }
+
+  nav ul {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    background-color: #fdfdfd;
+    height: 100%;
+    width: 80%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+
+  nav ul.open {
+    right: 0;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 80px 0;
+
+    /* border-bottom: 1px solid white; */
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  .slider {
+    display: none;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+  .btn-1 {
+    display: none;
+  }
+
+  .markup {
+    font-size: 16px;
+  }
+
+  .titulo {
+    font-size: 27px;
+  }
+
+  .paragrafo {
+    width: 100%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section p {
+    width: 277px;
+  }
+
+  section,
+  aside {
+    width: 100vw;
+  }
+
+  /* header */
+
+  header {
+    width: 100%;
+    padding: 10px 50px;
+
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    background-color: #eff5f29d;
+    box-shadow: 0px 2px 34px 2px rgb(0 0 0 / 10%);
+  }
+  header img {
+    width: 100%;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  /* hero */
+  #hero {
+    padding: 40px 16px;
+  }
+  #hero img {
+    width: 252px;
+    height: 157px;
+  }
+
+  /* Serviço 01 */
+  #serv1 {
+    flex-direction: column;
+  }
+
+  #serv1 .cards-box {
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  #serv1 .card {
+    margin-top: 250px;
+  }
+
+  #serv1 .paragrafo {
+    width: 100%;
+  }
+
+  .pc {
+    width: 272px;
+    height: 234px;
+  }
+
+  .tip {
+    display: none;
+  }
+
+  .cards-box {
+    flex-direction: column;
+  }
+
+  /* Serviço 02 */
+  #serv2 .paragrafo {
+    width: 100%;
+  }
+
+  #serv2 .cards-box {
+    margin-top: 50px;
+  }
+
+  #serv2 .card {
+    margin-top: 50px;
+  }
+
+  /* aside */
+  aside {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  aside img {
+    /* display: none; */
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .aside-container .titulo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aside-container p {
+    text-align: justify;
+    width: 100%;
+  }
+
+  #aside2 h2 {
+    width: 100%;
+    font-size: 37px;
+
+    text-align: justify;
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+}
