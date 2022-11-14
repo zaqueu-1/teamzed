@@ -1,121 +1,91 @@
-@media (max-width: 1366px) {
+@media (max-width: 1200px) {
   body {
-    width: 1300px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     overflow-x: hidden;
-  }
-
-  section,
-  aside,
-  footer,
-  header {
-    width: 1080px;
-  }
-  .titulo,
-  h2 {
-    font-size: 48px;
-  }
-
-  p,
-  .markup {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 425px) {
-  body {
-    width: 450px;
     margin: 0 auto;
   }
 
-  .menu-btn {
-    display: block;
-    position: relative;
-
-    z-index: 12;
+  html {
+    overflow-x: hidden;
   }
 
-  nav ul {
-    position: fixed;
-    top: 0px;
-    right: -100%;
-    background-color: #fdfdfd;
-    height: 100%;
-    width: 80%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s;
-    z-index: 10;
+  footer, header {
+    width: 90%;
   }
 
-  nav ul.open {
-    right: 0;
-  }
-  nav ul li {
-    width: 100%;
-    margin: 80px 0;
-
-    /* border-bottom: 1px solid white; */
-  }
-  nav ul li a {
-    font-size: 20px;
+  header {
+    padding-top: 10px;
   }
 
-  .slider {
-    display: none;
+  .bar {
+    width: 50%;
   }
 
-  .logo {
-    font-size: 20px;
-  }
-  .btn-1 {
-    display: none;
-  }
-
-  .markup {
-    font-size: 16px;
-  }
-
-  .titulo {
-    font-size: 27px;
-  }
-
-  .paragrafo {
-    width: 100%;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  section p {
-    width: 277px;
-  }
-
-  section,
-  aside {
+  section, aside {
     width: 100vw;
   }
 
-  /* header */
+  .titulo, h2 {
+    font-size: 48px;
+  }
+
+  p, .markup {
+    font-size: 16px;
+  }
+
+  #serv1 .paragrafo, #serv1 .titulo, #serv2 .paragrafo, #serv2 .titulo {
+    padding: 5px 15px;
+    width: 90%;
+  }
+
+  .coach {
+    align-items: center;
+    margin: 0 -90px;
+   }
+
+   .coach h3 {
+    font-size: 35px;
+   }
+
+  .aside-container .titulo {
+    width: 90%;
+    text-align: center;
+  }
+
+  .aside-container p {
+    width: 90%;
+  }
+
+  #aside2 h2 {
+    width: 90%;
+    font-size: 37px;
+  }
+
+  .card {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    display: flex;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
 
   header {
-    width: 100%;
-    padding: 10px 50px;
-
+    padding: 10px 0px;
     position: fixed;
     top: 0;
     z-index: 50;
-    background-color: #eff5f29d;
-    box-shadow: 0px 2px 34px 2px rgb(0 0 0 / 10%);
-  }
-  header img {
-    width: 100%;
+    background-color: transparent;
   }
 
   header nav ul {
@@ -128,92 +98,165 @@
     height: 40px;
   }
 
-  /* hero */
-  #hero {
-    padding: 40px 16px;
-  }
-  #hero img {
-    width: 252px;
-    height: 157px;
+  .menu-btn {
+    display: block;
+    position: relative;
+    z-index: 12;
   }
 
-  /* Serviço 01 */
+  nav ul {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    background-color: #333;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    display: block;
+    transition: 0.3s;
+    z-index: 10;
+  }
+
+  nav ul.open {
+    right: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    margin: 80px 0;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .btn-1 {
+    display: none;
+  }
+
+  .markup {
+    font-size: 16px;
+  }
+
+  .titulo {
+    font-size: 27px;
+  }
+
+  .titulo, .paragrafo {
+    width: 90%;
+  }
+
+  .bar {
+    width: 75%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section p {
+    width: 277px;
+  }
+
+  section, aside {
+    width: 100vw;
+  }
+
+  #hero {
+    padding: 20px 20px;
+    margin-top: 40px;
+  }
+
+  #hero img {
+    width: 250px;
+    height: 250px;
+  }
+
   #serv1 {
     flex-direction: column;
   }
 
   #serv1 .cards-box {
-    margin-top: 50px;
+    margin-top: 0px;
     align-items: center;
   }
 
   #serv1 .card {
-    margin-top: 250px;
+    margin-top: 220px;
+  }
+
+  #serv1 .paragrafo, #serv1 .titulo, #serv2 .paragrafo, #serv2 .titulo {
+    padding: 5px 15px;
+    width: 90%;
   }
 
   #serv1 .paragrafo {
-    width: 100%;
+    margin-bottom: -30px;
   }
 
-  .pc {
-    width: 272px;
-    height: 234px;
+  .coach-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .tip {
-    display: none;
-  }
+  .coach {
+    align-items: center;
+    margin: 90px 0 110px 0;
+    padding-bottom: 30px;
+   }
+ 
+   .coach h3 {
+     font-size: 30px;
+   }
 
   .cards-box {
     flex-direction: column;
   }
 
-  /* Serviço 02 */
-  #serv2 .paragrafo {
-    width: 100%;
-  }
-
   #serv2 .cards-box {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   #serv2 .card {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
-  /* aside */
   aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
   }
 
   aside img {
-    /* display: none; */
     margin-top: 80px;
-    width: 100%;
+    width: 90%;
   }
 
   .aside-container .titulo {
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
 
   .aside-container p {
     text-align: justify;
-    width: 100%;
+    width: 90%;
   }
 
   #aside2 h2 {
-    width: 100%;
+    width: 90%;
     font-size: 37px;
-
-    text-align: justify;
   }
 
-  /* footer */
+  #aside2 .btn-2 {
+    margin-top: 20px;
+  }
+
   footer {
     display: none;
   }
