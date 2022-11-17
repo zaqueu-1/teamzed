@@ -16,17 +16,22 @@ function menuAbrir() {
 
   if (menuAbrir.classList.contains("open")) {
     menuAbrir.classList.remove("open");
+    document.querySelector("#hide-me").classList.toggle("hide");
+    document.querySelector("#closebtn").classList.toggle("hide");
   } else {
     menuAbrir.classList.add("open");
+    document.querySelector("#hide-me").classList.toggle("hide");
+    document.querySelector("#closebtn").classList.toggle("hide");
   }
 }
 
 let btn2 = document.querySelectorAll(".btn2");
-let btn = document.querySelectorAll(".btn1");
 
 function btnaS() {
-  if (btn && btn2) {
-    window.location = "https://docs.google.com/forms/d/e/1FAIpQLSfbKicBUzTP2w-_7ZF_IJuVp4Cz0cPY74rorSTN459-tdni3g/viewform";
+  if (btn2) {
+    window.location = "https://docs.google.com/forms/d/e/1FAIpQLSfMLbPIRei9ry6l0EXnhObgoIaritElD8eHqFbcQvfuU9Of1Q/viewform";
     target = "_blank";
   }
 }
+
+Modal.initElements();

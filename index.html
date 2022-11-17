@@ -5,37 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultoria Esportiva: Team Zed</title>
-    <link rel="shortcut icon" href="src/images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/animacoes.css" />
     <link rel="stylesheet" href="src/css/responsivo.css" />
+    <link rel="stylesheet" href="src/css/modal.css" />
+    <script src="src/js/modal.js"></script>
   </head>
+    <!--modals-->
+    <div class="modal myModal1">
+      <div class="container">
+          <div class="header">
+              <h1>Eduardo Zaqueu</h1>
+              <button class="close">&times;</button> 
+          </div>
+          <div class="content">
+              Instagram: <a id="legenda2" href="https://instagram.com/zq1fit">@zq1fit</a><br>
+          </div>
+          <div class="footer">
+              <button class="close">Fechar</button>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal myModal2">
+    <div class="container">
+        <div class="header">
+            <h1>Vanderlei Moraes</h1>
+            <button class="close">&times;</button> 
+        </div>
+        <div class="content">
+            Instagram: <a id="legenda2" href="https://instagram.com/vanderleimoraespro">@vanderleimoraespro</a><br>
+        </div>
+        <div class="footer">
+            <button class="close">Fechar</button>
+        </div>
+    </div>
+</div>
+  <!--page-->
   <body>
+    <a name="top"></a>
     <header>
       <h3 class="logo">#TEAMZED</h3>
       <nav>
         <div class="menu-btn">
-          <button class="menu-icon filter-orange" onclick="menuAbrir()">
-            <img src="src/images/menu.svg" />
-          </button>
+          <span id="hide-me" onclick="menuAbrir()">
+            Menu
+          </span>
+          <span id="closebtn" class="hide" onclick="menuAbrir()">
+            x
+          </span>
         </div>
         <ul>
-          <li><a href="#serv1">Quem somos</a></li>
-          <li><a href=" " target="_blank">Contato</a></li>
+          <li>
+            <a href="#fazer-parte">Consultoria</a>
+          </li>
+          <li>
+            <a href="#contato-info">Contato</a>
+          </li>
         </ul>
       </nav>
     </header>
-
     <section id="hero">
       <img src="src/images/biglogo.png" class="blob"/>
       <h2 class="titulo hidden">CONSULTORIA ESPORTIVA</h2>
       <p class="paragrafo hidden">
-        Cansado de não ter resultados? No #TEAMZED, seu objetivo é NOSSO desafio! 
+        Cansado de não ter resultados? No TEAMZED, seu objetivo é <u>nosso</u> desafio! 
       </p>
       <div class="bar hidden"> </div>
     </section>
-
     <section id="serv1">
       <h4 class="markup hidden">QUEM SOMOS</h4>
       <h2 class="titulo hidden">PROFISSIONAIS QUE AMAM O ESPORTE!</h2>
@@ -43,20 +81,20 @@
         Trabalhamos para que você não cometa os mesmos erros que todos cometem.<br>
         Somos profissionais dedicados com experiência prática e vivência no bodybuilding!
       </p>
-
+      <a name="contato-info"></a>
       <div class="box-quemsomos">
         <div class="coach-container">
           <div class="coach hidden">
             <img src="src/images/edu.jpg" class="avatar-edu" />
             <h3>Eduardo Zaqueu</h3>
             <span>Plano alimentar e suplementação</span>
-            <a href="https://instagram.com/zq1fit" target="_blank">@zq1fit</a>
+            <br><button class="contato-info"><a href="#" data-modal=".myModal1"><span id="legenda">Contato</span></a></button>
           </div>
           <div class="coach hidden">
             <img src="src/images/deley.jpeg" class="avatar-van" />
             <h3>Vanderlei Moraes</h3>
             <span>Periodização de treinos</span>
-            <a href="https://instagram.com/vanderleimoraespro" target="_blank">@vanderleimoraespro</a>
+            <br><button class="contato-info"><a href="#" data-modal=".myModal2"><span id="legenda">Contato</span></a></button>
           </div>
         </div>
         <div class="cards-box hidden">
@@ -121,34 +159,37 @@
       </div>
     </section>
     <aside>
-      <div class="aside-container">
-        <h4 class="markup">FAÇA PARTE!</h4>
-        <h2 class="titulo">Seu objetivo a um clique de distância</h2>
-        <p class="hidden">
+      <div class="aside-container hidden">
+        <h4 class="markup">FAÇA PARTE</h4>
+        <h2 class="titulo">Seu objetivo a um clique</h2>
+        <p>
           <br>
-          Os arquivos referentes ao protocolo são enviados virtualmente e podem ser acessados facilmente por qualquer dispositivo.<br><br>
+          Os arquivos referentes ao protocolo são enviados virtualmente e podem ser acessados facilmente por qualquer dispositivo.
+          <br><br>
           Além disso, coletas mensais de feedbacks garantem que os ajustes necessários no seu plano sejam feitos sem a necessidade de agendar horários ou consultas.
-        </p>
-        <p class="hidden">
+          <br><br>
           Para oferecer uma maior qualidade no serviço, trabalhamos com <strong><em>vagas limitadas</em></strong> que são renovadas mensalmente.
         </p>
       </div>
       <img src="src/images/cel.png" class="hidden" />
     </aside>
     <aside id="aside2">
-      <h2 class="hidden">
-        Vai continuar <em>"correndo atrás"</em> ou vai correr <br><em><u>na direção dos seus resultados</em></u>?
+      <h2>
+        Vai continuar pra trás ou vai correr <br><em><u>na direção dos seus resultados</em></u>?
       </h2>
       <button class="btn-2" onclick="btnaS()">Quero fazer parte desse time!</button>
     </aside>
-    <footer class="hidden">
+    <a name="fazer-parte"></a>
+    <footer>
       <h3 class="logo">#TEAMZED</h3>
       <div>
         <nav>
           <ul>
-            <li><a href="#serv1">Quem somos</a></li>
             <li>
-              <a href=" " target="_blank">Contato</a>
+              <a href="#top">Voltar</a>
+            </li>
+            <li>
+              <a href="#contato-info">Contato</a>
             </li>
           </ul>
         </nav>
