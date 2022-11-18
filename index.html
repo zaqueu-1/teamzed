@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultoria Esportiva: Team Zed</title>
-    <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/animacoes.css" />
-    <link rel="stylesheet" href="src/css/responsivo.css" />
+    <link rel="stylesheet" href="src/css/effects.css" />
+    <link rel="stylesheet" href="src/css/mobile.css" />
     <link rel="stylesheet" href="src/css/modal.css" />
     <script src="src/js/modal.js"></script>
   </head>
@@ -27,7 +26,6 @@
           </div>
       </div>
   </div>
-
   <div class="modal myModal2">
     <div class="container">
         <div class="header">
@@ -49,10 +47,10 @@
       <h3 class="logo">#TEAMZED</h3>
       <nav>
         <div class="menu-btn">
-          <span id="hide-me" onclick="menuAbrir()">
+          <span id="hide-me" onclick="mobileMenu()">
             Menu
           </span>
-          <span id="closebtn" class="hide" onclick="menuAbrir()">
+          <span id="close-btn" class="hide" onclick="mobileMenu()">
             x
           </span>
         </div>
@@ -66,20 +64,18 @@
         </ul>
       </nav>
     </header>
-    <section id="hero">
+    <section id="teamzed">
       <img src="src/images/biglogo.png" class="blob"/>
       <h2 class="titulo hidden">CONSULTORIA ESPORTIVA</h2>
       <p class="paragrafo hidden">
-        Cansado de não ter resultados? No TEAMZED, seu objetivo é <u>nosso</u> desafio! 
+        Frustrado com seus resultados? Com a gente, seu objetivo é <u>nosso</u> desafio! 
       </p>
-      <div class="bar hidden"> </div>
     </section>
     <section id="serv1">
       <h4 class="markup hidden">QUEM SOMOS</h4>
       <h2 class="titulo hidden">PROFISSIONAIS QUE AMAM O ESPORTE!</h2>
       <p class="paragrafo hidden">
-        Trabalhamos para que você não cometa os mesmos erros que todos cometem.<br>
-        Somos profissionais dedicados com experiência prática e vivência no bodybuilding!
+        Trabalhamos para que você não cometa os mesmos erros que os demais.
       </p>
       <a name="contato-info"></a>
       <div class="box-quemsomos">
@@ -102,21 +98,21 @@
             <img src="src/images/smartp-icon.svg" class="filter-white" />
             <h4 class="titulo-card">Praticidade</h4>
             <p class="descricao-card">
-              Planejamentos em PDF que podem ser acessados pelo celular a qualquer hora!
+              Arquivos em <i>.pdf</i> que podem ser acessados a qualquer momento!
             </p>
           </div>
           <div class="card">
             <img src="src/images/packs-icon.svg" class="filter-white" />
             <h4 class="titulo-card">Pacotes completos</h4>
             <p class="descricao-card">
-              Trabalhamos com planos mensais, trimestrais e semestrais.
+              Contamos com planos mensais, trimestrais e semestrais.
             </p>
           </div>
           <div class="card">
             <img src="src/images/money-icon.svg" class="filter-white" />
             <h4 class="titulo-card">Pagamento fácil</h4>
             <p class="descricao-card">
-              Aceitamos pix, boleto e cartões de crédito/débito.
+              Aceitamos as principais formas de pagamento.
             </p>
           </div>
         </div>
@@ -126,9 +122,9 @@
       <h4 class="markup hidden">O QUE ENTREGAMOS</h4>
       <h2 class="titulo hidden">ACREDITAMOS NO PODER DE UM PLANO BEM FEITO!</h2>
       <p class="paragrafo hidden">
-        O maior desafio pra alcançar o corpo que você quer
+        O maior desafio pra alcançar o corpo que você deseja
         <strong><em>é conciliar tudo com sua rotina</em></strong>!<br>
-        E por aqui, nossa tarefa é justamente
+        Por aqui, nossa tarefa é justamente
         <strong><em>te guiar</em></strong>
         e facilitar esse processo.
       </p>
@@ -153,7 +149,7 @@
             <img src="src/images/treino-icone.svg" class="filter-white" />
             <h4 class="titulo-card">Aeróbicos e Treinos</h4>
             <p class="descricao-card">
-              Planilha de exercícios periodizada e ajustada em torno de suas metas!
+              Planilha de exercícios periodizada em torno de suas metas!
             </p>
         </div>
       </div>
@@ -164,11 +160,11 @@
         <h2 class="titulo">Seu objetivo a um clique</h2>
         <p>
           <br>
-          Os arquivos referentes ao protocolo são enviados virtualmente e podem ser acessados facilmente por qualquer dispositivo.
+          Os arquivos referentes ao protocolo são enviados para você e podem ser acessados facilmente em qualquer dispositivo.
           <br><br>
-          Além disso, coletas mensais de feedbacks garantem que os ajustes necessários no seu plano sejam feitos sem a necessidade de agendar horários ou consultas.
+          Além disso, coletas mensais de feedback garantem que os ajustes necessários sejam feitos sem a necessidade de agendar horários ou consultas.
           <br><br>
-          Para oferecer uma maior qualidade no serviço, trabalhamos com <strong><em>vagas limitadas</em></strong> que são renovadas mensalmente.
+          Para oferecer uma maior qualidade no serviço, mantemos um <em>número limitado de vagas</em> que é renovado mensalmente.
         </p>
       </div>
       <img src="src/images/cel.png" class="hidden" />
@@ -177,7 +173,7 @@
       <h2>
         Vai continuar pra trás ou vai correr <br><em><u>na direção dos seus resultados</em></u>?
       </h2>
-      <button class="btn-2" onclick="btnaS()">Quero fazer parte desse time!</button>
+      <button class="forms-button" onclick="goToForms()">Quero fazer parte desse time!</button>
     </aside>
     <a name="fazer-parte"></a>
     <footer>
