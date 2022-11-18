@@ -20,10 +20,6 @@
     padding-top: 10px;
   }
 
-  .bar {
-    width: 50%;
-  }
-
   section, aside {
     width: 100vw;
   }
@@ -134,10 +130,6 @@
     font-size: 20px;
   }
 
-  .btn-1 {
-    display: none;
-  }
-
   .markup {
     font-size: 16px;
   }
@@ -148,10 +140,6 @@
 
   .titulo, .paragrafo {
     width: 90%;
-  }
-
-  .bar {
-    width: 75%;
   }
 
   p {
@@ -166,12 +154,12 @@
     width: 100vw;
   }
 
-  #hero {
+  #teamzed {
     padding: 20px 20px;
     margin-top: 40px;
   }
 
-  #hero img {
+  #teamzed img {
     width: 250px;
     height: 250px;
   }
@@ -253,7 +241,7 @@
     font-size: 37px;
   }
 
-  #aside2 .btn-2 {
+  #aside2 .forms-button {
     margin-top: 20px;
   }
 
