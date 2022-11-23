@@ -56,16 +56,9 @@ u {
   text-decoration: underline #e96029;
 }
 
-.filter-white {
-  filter: invert(100%) sepia(22%) saturate(1122%) hue-rotate(133deg) brightness(120%) contrast(92%);
+.svg-icon {
   width: 50px;
   height: 50px;
-}
-
-.filter-orange {
-  filter: invert(52%) sepia(91%) saturate(3200%) hue-rotate(345deg) brightness(95%) contrast(92%);
-  width: 25px;
-  height: 25px;
 }
 
 .hide {
@@ -74,6 +67,7 @@ u {
 
 body {
   background-image: linear-gradient(to right, #333, #111);
+  background-color: #333;
   width: 100%;
   margin: 30px auto;
   overflow-x: hidden;
@@ -182,7 +176,8 @@ nav ul li a:hover {
 .paragrafo {
   color: #6b6b6b;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+  margin-top: -8px;
   width: 498px;
 }
 
