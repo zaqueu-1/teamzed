@@ -105,9 +105,9 @@
     transition: 0.2s;
   }
 
-.modal .container .footer button:hover {
+  .modal .container .footer button:hover {
     background-color: #222;
-}
+  }
 
   .modal .container .footer button:last-child {
     margin-right: 0;
