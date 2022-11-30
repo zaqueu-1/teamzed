@@ -1,4 +1,4 @@
-<h2><a href="https://teamzed.vercel.app/"> #TEAMZED Consultoria Esportiva </a></h2>
+<h2><a href="https://teamzed.com.br"> #TEAMZED Consultoria Esportiva </a></h2>
 <h5>seu objetivo é nosso desafio!</h5>
 
 <div style="display: inline_block">
