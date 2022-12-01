@@ -4,7 +4,7 @@
   --fs-600: 1.5rem;
   --fs-l: 2.5rem;
   --fs-xl: 3rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 @media (max-width: 900px) {
@@ -181,8 +181,8 @@
   }
 
   .box-quemsomos {
-    margin-top: 7rem;
-    padding: 2rem 3rem;
+    margin-top: 10rem;
+    padding: 0 3rem;
   }
 
   #teamzed {
@@ -221,12 +221,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .coach {
+    margin: 5rem 3rem 6.5rem 3rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .coach span {
+    margin-bottom: -25px;
+   }
+
+   .centerme {
     align-items: center;
-    margin: 5.5rem 0 6.9rem 0;
-    padding-bottom: 0.9rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    padding: 0 2rem;
+    width: 10vw;
    }
  
    .coach h3, .titulo-card, .titulo, .logo {
@@ -250,7 +266,7 @@
     margin-top: 2.5rem;
   }
 
-  .avatar-van, .avatar-edu {
+  .avatar-van, .avatar-edu, .avatar-wagner {
     height: 13rem;
     width: 13rem;
   }

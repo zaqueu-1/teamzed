@@ -36,7 +36,7 @@ smoothScrolling = () => {
         entry.target.classList.remove("show");
       }
     });
-  }, {rootMargin: "190px"})
+  }, {rootMargin: "700px"})
 
   hiddenElements.forEach((e) => observer.observe(e));
   ;}
@@ -50,7 +50,7 @@ smoothScrolling = () => {
           entry.target.classList.remove("show");
         }
       });
-    }, {rootMargin: "100px"})
+    }, {rootMargin: "550px"})
 
     hiddenElements.forEach((e) => observer.observe(e));
     ;}

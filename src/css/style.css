@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
 
 :root {
-  --fs-400: 1rem;
-  --fs-500: 1.25rem;
-  --fs-600: 1.5rem;
-  --fs-l: 2.5rem;
-  --fs-xl: 3rem;
-  font-weight: 200;
+  --fs-400: 1.4rem;
+  --fs-500: 1.5rem;
+  --fs-600: 1.6rem;
+  --fs-l: 2.6rem;
+  --fs-xl: 3.1rem;
+  font-weight: 300;
 }
 
 * {
@@ -85,7 +85,7 @@ html {
 }
 
 .paragrafo, .coach span, #aside2 .forms-button:hover {
-  font-size: var(--fs-500);
+  font-size: var(--fs-400);
 }
 
 .coach h3, .logo {
@@ -234,7 +234,6 @@ nav ul li a:hover {
 .coach {
   margin-top: 5.5rem;
   text-align: center;
-  padding: 0 11rem;
 }
 
 .coach h3 {
@@ -247,9 +246,11 @@ nav ul li a:hover {
 
 .coach span {
   color: #777777;
+  width: 100vw;
+  padding: 0 1.5rem;
 }
 
-.avatar-van, .avatar-edu {
+.avatar-van, .avatar-edu, .avatar-wagner {
   height: 15.5rem;
   width: 15.5rem;
   transition: 0.4s;
@@ -258,7 +259,7 @@ nav ul li a:hover {
                 -10px -10px 0px #333; /*left*/
 }
 
-.avatar-van:hover, .avatar-edu:hover {
+.avatar-van:hover, .avatar-edu:hover, .avatar-wagner:hover {
   transform: scale(0.95);
   box-shadow:  20px 20px 0px #e96029,  /*right*/
                 -20px -20px 0px #333; /*left*/
