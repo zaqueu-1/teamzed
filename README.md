@@ -4,12 +4,12 @@
 ![Javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 
-## TEAMZED: Consultoria Esportiva
+## TEAMZED: Sports Consulting Team
 
-Fundado em 2020, com intuito de fundamentar o conhecimento underground do bodybuilding, o TeamZed é mais do que uma equipe de consultoria esportiva: nós trazemos resultados de verdade!
+Landing Page for my Sports Consulting Team, created in 2020, aiming to divulge my services and modernize access. Teamzed is MORE than a plain consulting team: we deliver results!
 
 
-## Demonstração
+## Demo
 
 ![demo](https://github.com/zaqueu-1/teamzed/blob/main/chrome-capture-2022-11-16.gif)
 
@@ -17,11 +17,11 @@ Fundado em 2020, com intuito de fundamentar o conhecimento underground do bodybu
 www.teamzed.com.br
 ## Roadmap
 
-- Port da landing para NextJS [finalizado];
-- Área de membros [em andamento];
+- Port to NextJS [finished];
+- Members Area [fev/2023];
 
 
-## Autores
+## Author
 
 - [@zaqueu-1](https://www.github.com/zaqueu-1)
 
