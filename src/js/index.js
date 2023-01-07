@@ -23,7 +23,7 @@ smoothScrolling = () => {
             entry.target.classList.remove("show");
           }
         });
-      }, {rootMargin: "50px"})
+      }, {rootMargin: "350px", root: null, threshold: 0.1,})
 
       hiddenElements.forEach((e) => observer.observe(e));
 }
