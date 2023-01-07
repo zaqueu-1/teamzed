@@ -21,10 +21,6 @@
     font-size: 2rem;
   }
 
-  .paragrafo, .coach h3 {
-    font-size: var(--fs-500)
-  }
-
   .markup {
     font-size: var(--fs-400);
   }
@@ -63,7 +59,7 @@
 
   .coach {
     align-items: center;
-    margin: 5.5rem 0 6.9rem 0;
+    margin: 6.5rem 0 6.9rem 0;
     padding-bottom: 0.9rem;
    }
 
@@ -114,6 +110,11 @@
   #aside2 .forms-button {
     margin-top: 1.5rem;
   }
+
+  .box-loja {
+    margin-top: 10rem;
+    padding: 0 3rem;
+  }
 }
 
 /* 500w --------------------------------------------------------------------------------------------------------------------------------*/
@@ -129,42 +130,12 @@
     margin:0 1.2rem 3rem 1.2rem;
   }
 
-  header nav ul {
-    display: none;
-  }
-
   .menu-btn {
     display: block;
     width: 2.5rem;
     height: 2.5rem;
     position: relative;
     z-index: 12;
-  }
-
-  nav ul {
-    position: fixed;
-    top: 0px;
-    right: -100%;
-    background-color: #333;
-    height: 100vh;
-    width: 70vw;
-    text-align: center;
-    display: block;
-    z-index: 10;
-  }
-
-  nav ul.open {
-    right: 0;
-    transition: 0.3s;
-  }
-
-  nav ul li {
-    width: 100vw;
-    margin: 5rem 0;
-  }
-
-  nav ul li a {
-    font-size: var(--fs-500)
   }
 
   .markup {
@@ -185,6 +156,11 @@
     padding: 0 3rem;
   }
 
+  .box-loja {
+    margin-top: 10rem;
+    padding: 0 3rem;
+  }
+
   #teamzed {
     padding: 1.2rem;
     margin-top: 2.5rem;
@@ -195,7 +171,7 @@
     height: 15rem;
   }
 
-  #serv1 {
+  #serv1, #store {
     flex-direction: column;
   }
 
@@ -245,7 +221,7 @@
     width: 10vw;
    }
  
-   .coach h3, .titulo-card, .titulo, .logo {
+   .coach h3, .titulo-card, .titulo, .logo, .paragrafo {
      font-size: var(--fs-500)
    }
 
@@ -266,7 +242,7 @@
     margin-top: 2.5rem;
   }
 
-  .avatar-van, .avatar-edu, .avatar-wagner {
+  .avatar-van, .avatar-edu, .avatar-wagner, .planos-n {
     height: 13rem;
     width: 13rem;
   }
@@ -317,4 +293,19 @@
   #aside2 .forms-button:hover {
     font-size: var(--fs-400);
   }
+
+  .buy-btn {
+    background-color: #e96029;
+    border-color: transparent;
+    border-radius: 12px;
+    padding: 0.3rem;
+    margin: 0.8rem 0 1.5rem 0;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  #goback, #members, #contato-info, #top {
+    font-size: 1rem;
+  }
+
 }

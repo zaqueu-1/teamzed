@@ -2,7 +2,7 @@
 
 :root {
   --fs-400: 1.4rem;
-  --fs-500: 1.5rem;
+  --fs-500: 1.45rem;
   --fs-600: 1.6rem;
   --fs-l: 2.6rem;
   --fs-xl: 3.1rem;
@@ -85,7 +85,7 @@ html {
 }
 
 .paragrafo, .coach span, #aside2 .forms-button:hover {
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
 }
 
 .coach h3, .logo {
@@ -97,12 +97,12 @@ html {
 }
 
 .descricao-card, #aside2 .forms-button {
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
 }
 
 #legenda, #legenda2 {
   color: white;
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
 }
 
 /* menu list */
@@ -117,6 +117,17 @@ a {
 }
 
 a:hover {
+  opacity: 0.6;
+}
+
+#members, #goback {
+  color: rgb(233, 96, 41);
+  text-decoration: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#members:hover, #goback:hover {
   opacity: 0.6;
 }
 
@@ -161,6 +172,7 @@ nav ul li {
 nav ul li a {
   padding: 0.6rem 0.8rem;
   transition: 0.3s;
+  font-size: var(--fs-500);
   color: #e96029;
 }
 

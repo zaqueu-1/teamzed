@@ -1,22 +1,13 @@
-mobileMenu = () => {
-  const menuItems = document.querySelector("nav ul");
 
-  if (menuItems.classList.contains("open")) {
-    menuItems.classList.remove("open");
-    document.querySelector("#hide-me").classList.toggle("hide");
-    document.querySelector("#close-btn").classList.toggle("hide");
-  } else {
-    menuItems.classList.add("open");
-    document.querySelector("#hide-me").classList.toggle("hide");
-    document.querySelector("#close-btn").classList.toggle("hide");
-  }
+dropdown = () => {
+  document.getElementById("mydrop").classList.toggle("show");
 }
 
-goToForms = () => {
-  const formsButton = document.querySelector(".forms-button");
+goToStore = () => {
+  const membersButton = document.querySelector("#members");
 
-  if (formsButton) {
-    window.location = "https://docs.google.com/forms/d/e/1FAIpQLSfMLbPIRei9ry6l0EXnhObgoIaritElD8eHqFbcQvfuU9Of1Q/viewform";
+  if (membersButton) {
+    window.location = "src/pages/store.html";
     target = "_blank";
   }
 }
