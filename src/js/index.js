@@ -1,8 +1,4 @@
 
-dropdown = () => {
-  document.getElementById("mydrop").classList.toggle("show");
-}
-
 goToStore = () => {
   const membersButton = document.querySelector("#members");
 
@@ -12,22 +8,6 @@ goToStore = () => {
   }
 }
 
-smoothScrolling = () => {
-  const hiddenElements = document.querySelectorAll(".hidden"); 
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-        } else {
-            entry.target.classList.remove("show");
-          }
-        });
-      }, {rootMargin: "350px", root: null, threshold: 0.1,})
-
-      hiddenElements.forEach((e) => observer.observe(e));
-}
-
-smoothScrolling();
+AOS.init();
 Modal.initElements();
 

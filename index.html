@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="src/css/mobile.css" />
     <link rel="stylesheet" href="src/css/effects.css" />
     <link rel="stylesheet" href="src/css/modal.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="src/js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
     <!--modals-->
     <div class="modal myModal1">
@@ -69,22 +71,38 @@
         </ul>
       </nav>
     </header>
-    <section id="teamzed">
+    <section id="teamzed"         
+              data-aos="fade-down"
+              data-aos-duration="1200"
+    >
       <img src="src/images/biglogo.png" class="blob"/>
-      <h2 class="titulo hidden">Consultoria Esportiva</h2>
-      <p class="paragrafo hidden">
+      <h2 class="titulo">Consultoria Esportiva</h2>
+      <p class="paragrafo">
         Suas metas são nosso desafio!
       </p>
     </section>
     <section id="serv1">
-      <h4 class="markup hidden">QUEM SOMOS</h4>
-      <h2 class="titulo hidden">PROFISSIONAIS QUE AMAM O ESPORTE!</h2>
-      <p class="paragrafo hidden">
-        Trabalhamos para que você não cometa os mesmos erros que os demais.
+      <h4 class="markup"
+          data-aos="fade-up"
+          data-aos-duration="900"
+      >QUEM SOMOS</h4>
+      <h2 class="titulo"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="900"
+      >PROFISSIONAIS QUE AMAM O ESPORTE!</h2>
+      <p class="paragrafo"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="900"
+      >Trabalhamos para que você não cometa os mesmos erros que os demais.
       </p>
       <a name="contato-info"></a>
       <div class="box-quemsomos">
-        <div class="coach-container hidden">
+        <div class="coach-container"
+              data-aos="fade-up"
+              data-aos-duration="900"
+        >
           <div class="coach">
             <img src="src/images/wagner.png" class="avatar-wagner" />
             <h3>Wagner Machado</h3>
@@ -110,7 +128,7 @@
             <br><button class="contato-info"><a href="#" data-modal=".myModal2"><span id="legenda">Contato</span></a></button>
           </div>
         </div>
-        <div class="cards-box hidden">
+        <div class="cards-box">
           <div class="card">
             <img src="src/images/smartp-icon.svg" class="svg-icon" />
             <h4 class="titulo-card">Praticidade</h4>
@@ -136,9 +154,20 @@
       </div>
     </section>
     <section id="serv2">
-      <h4 class="markup hidden">O QUE ENTREGAMOS</h4>
-      <h2 class="titulo hidden">ACREDITAMOS EM UM PLANO BEM FEITO!</h2>
-      <p class="paragrafo hidden">
+      <h4 class="markup"
+          data-aos="fade-up"
+          data-aos-duration="900"
+      >O QUE ENTREGAMOS</h4>
+      <h2 class="titulo"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="900"
+      >ACREDITAMOS EM UM PLANO BEM FEITO!</h2>
+      <p class="paragrafo"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="900"
+      >
         Alcançar o corpo dos sonhos exige <strong><em>constância!</em></strong><br>
         Nossa tarefa é <strong><em>te guiar</em></strong> nesse processo.
       </p>
@@ -170,8 +199,15 @@
     </section>
     <aside>
       <div class="aside-container">
-        <h4 class="markup hidden">FAÇA PARTE</h4>
-        <h2 class="titulo hidden">Seu objetivo a um clique!</h2>
+        <h4 class="markup"
+            data-aos="fade-up"
+            data-aos-duration="900"
+        >FAÇA PARTE</h4>
+        <h2 class="titulo"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="900"
+        >Seu objetivo a um clique!</h2>
         <p class="paragrafo">
           <br>
           Os arquivos do protocolo são enviados para você e podem ser acessados facilmente em qualquer dispositivo.
@@ -181,7 +217,11 @@
           Para uma maior qualidade no serviço mantemos <em>vagas limitadas</em>, renovadas mensalmente.
         </p>
       </div>
-      <img src="src/images/cel.png" class="hidden" />
+      <img src="src/images/cel.png" 
+      data-aos="fade-up"
+      data-aos-delay="200"
+      data-aos-duration="900"
+      />
     </aside>
     <aside id="aside2">
       <h2>

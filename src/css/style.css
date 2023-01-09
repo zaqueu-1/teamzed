@@ -267,14 +267,14 @@ nav ul li a:hover {
   width: 15.5rem;
   transition: 0.4s;
   border-radius: 10px;
-  box-shadow:  10px 10px 0px #e96029,  /*right*/
-                -10px -10px 0px #333; /*left*/
+  box-shadow:  5px 5px 0px #e96029,  /*right*/
+                -5px -5px 0px rgb(34, 34, 34); /*left*/
 }
 
 .avatar-van:hover, .avatar-edu:hover, .avatar-wagner:hover {
   transform: scale(0.95);
-  box-shadow:  20px 20px 0px #e96029,  /*right*/
-                -20px -20px 0px #333; /*left*/
+  box-shadow:  15px 15px 0px rgb(233, 96, 41, 0.5),  /*right*/
+                -15px -15px 0px rgb(34, 34, 34, 0.5); /*left*/
 }
 
 
