@@ -39,7 +39,7 @@ button {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  overflow: visible;
+  overflow-x: hidden;
   z-index: -1;
   background: #222;
 }
