@@ -8,9 +8,6 @@
 }
 
 @media (max-width: 900px) {
-  html {
-    overflow-x: hidden;
-  }
 
   header {
     padding-top: 0.6rem;
@@ -119,9 +116,6 @@
 
 /* 500w --------------------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 500px) {
-  html {
-    overflow-x: hidden;
-  }
 
   header {
     position: fixed;

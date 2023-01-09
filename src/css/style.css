@@ -17,8 +17,8 @@
 }
 
 body {
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   margin: 1rem auto;
   overflow-x: hidden;
   overflow-y: visible;
@@ -30,10 +30,6 @@ button {
   cursor: pointer;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .bg {
   position: fixed;
   right: 0;
@@ -43,7 +39,7 @@ html {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  overflow: hidden;
+  overflow: visible;
   z-index: -1;
   background: #222;
 }
