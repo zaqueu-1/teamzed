@@ -19,11 +19,15 @@
 body {
   height: 100%;
   width: 100vw;
-  margin: 1rem auto;
+  margin: 1rem 0;
   overflow-x: hidden;
   overflow-y: overlay;
   display: flex;
   flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 button {
@@ -36,10 +40,10 @@ button {
   bottom: 0;
   left: 0;
   top: 0;
+  height: 100%;
   width: 100vw;
-  height: 100vh;
   object-fit: cover;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: -1;
   background: #222;
 }
