@@ -26,6 +26,11 @@ body {
   flex-direction: column;
 }
 
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 button {
   cursor: pointer;
 }

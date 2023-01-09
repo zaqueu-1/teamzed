@@ -9,11 +9,6 @@
 
 @media (max-width: 900px) {
 
-  html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-  }
-
   header {
     padding-top: 0.6rem;
     width: 90vw;
@@ -121,11 +116,6 @@
 
 /* 500w --------------------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 500px) {
-
-  html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-  }
 
   header {
     position: fixed;
