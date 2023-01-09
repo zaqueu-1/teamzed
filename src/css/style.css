@@ -18,10 +18,10 @@
 
 body {
   min-width: 100vw;
-  min-height: 100h;
+  min-height: 100vh;
   margin: 1rem auto;
   overflow-x: hidden;
-  overflow-y: overlay;
+  overflow-y: visible;
   display: flex;
   flex-direction: column;
 }
