@@ -302,4 +302,12 @@
     font-size: 1rem;
   }
 
+  .contato-info {
+    margin-top: 2rem;
+  }
+
+  body {
+    max-width: 100vw;
+  }
+
 }
