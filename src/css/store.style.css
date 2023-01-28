@@ -34,6 +34,25 @@ header2 {
   color: white;
 }
 
+.coach-container {
+  width: 100vw;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.coach {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .buy-btn {
   background-color: #e96029;
   border-color: transparent;
@@ -48,25 +67,56 @@ header2 {
   background-color: #913c1b;
 }
 
+.planos-c {
+  height: 13.5rem;
+  width: 13.5rem;
+  transition: 0.4s;
+  border-radius: 10px;
+  box-shadow:  5px 5px 0px  #C9E265,  /*right*/
+                -5px -5px 0px rgb(34, 34, 34); /*left*/
+}
+
+.planos-c:hover {
+  transform: scale(0.95);
+  box-shadow:  15px 15px 0px rgb(201, 226, 101, 0.5),  /*right*/
+                -15px -15px 0px  rgb(34, 34, 34, 0.5); /*left*/
+}
+
 .planos-n {
   height: 13.5rem;
   width: 13.5rem;
   transition: 0.4s;
   border-radius: 10px;
-  box-shadow:  5px 5px 0px  rgb(233, 96, 41),  /*right*/
+  box-shadow:  5px 5px 0px  #7ED956,  /*right*/
                 -5px -5px 0px rgb(34, 34, 34); /*left*/
 }
 
 .planos-n:hover {
   transform: scale(0.95);
-  box-shadow:  15px 15px 0px rgb(233, 96, 41, 0.5),  /*right*/
+  box-shadow:  15px 15px 0px rgb(126, 217, 86, 0.5),  /*right*/
+                -15px -15px 0px  rgb(34, 34, 34, 0.5); /*left*/
+}
+
+.planos-t {
+  height: 13.5rem;
+  width: 13.5rem;
+  transition: 0.4s;
+  border-radius: 10px;
+  box-shadow:  5px 5px 0px  #C66AE0,  /*right*/
+                -5px -5px 0px rgb(34, 34, 34); /*left*/
+}
+
+.planos-t:hover {
+  transform: scale(0.95);
+  box-shadow:  15px 15px 0px rgb(198, 106, 224, 0.5),  /*right*/
                 -15px -15px 0px  rgb(34, 34, 34, 0.5); /*left*/
 }
 
 .box-loja {
   margin-top: 5.5rem;
-  padding: 3rem;
-  width: 100vw;
+  padding: 4rem 1rem;
+  width: 100%;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
